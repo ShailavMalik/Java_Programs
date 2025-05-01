@@ -1,1 +1,0 @@
-<applet code="prm3_Applet" width="300" height="200" >  </applet>

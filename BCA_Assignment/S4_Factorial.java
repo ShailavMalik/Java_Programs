@@ -1,4 +1,4 @@
-public class D_Factorial {
+public class S4_Factorial {
 
     public static int fact(int n) {
         if (n == 1)

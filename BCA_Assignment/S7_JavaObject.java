@@ -1,4 +1,4 @@
-class G_JavaObject {
+class S7_JavaObject {
 
      public static class demo {
      

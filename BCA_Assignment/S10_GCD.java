@@ -1,4 +1,4 @@
-public class J10_GCD {
+public class S10_GCD {
 
     public static int findGCD(int n1, int n2) {
         int hcf = 1;

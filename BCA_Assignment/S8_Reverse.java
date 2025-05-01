@@ -1,4 +1,4 @@
-public class H_Reverse {
+public class S8_Reverse {
 
     static int rev = 0;
 

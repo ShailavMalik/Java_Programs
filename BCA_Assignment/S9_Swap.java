@@ -1,4 +1,4 @@
-public class I9_Swap {
+public class S9_Swap {
 
     public static void main(String[] args) {
         int a = 9, b = 4;

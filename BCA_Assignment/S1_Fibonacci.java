@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 
-class A_Fibonacci {
+class S1_Fibonacci {
     // print first n fibonacci numbers
     static void printFib(int n) {
         int a = 0, b = 1;

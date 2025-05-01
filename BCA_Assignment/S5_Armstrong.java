@@ -1,6 +1,6 @@
 import java.lang.Math;
 
-class E_Armstrong {
+class S5_Armstrong {
 
     public static boolean isArmstrong(int n) {
         // 123

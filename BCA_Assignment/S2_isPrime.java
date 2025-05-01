@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class B_isPrime {
+class S2_isPrime {
 
     public static boolean isPrime(int n) {
         for (int i = 2; i < n; i++) {

@@ -1,4 +1,4 @@
-class C_isPalindrome {
+class S3_isPalindrome {
 
     public static boolean isPalindrome(String s) {
         int i = 0;
