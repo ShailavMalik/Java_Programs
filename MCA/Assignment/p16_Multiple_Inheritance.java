@@ -20,7 +20,6 @@ class BankAccount {
     BankAccount(String name, double balance) {
         this.name = name;
         this.balance = balance;
-
         // Automatically assign next account number
         accountNumber = Integer.toString(Integer.parseUnsignedInt(accountNumber) + 1);
     }
@@ -75,18 +74,13 @@ class SavingsAccount extends BankAccount implements InterestAccount {
     }
 }
 
-// Main class to test the functionality
 public class p16_Multiple_Inheritance {
-
     public static void main(String[] args) {
-        // Create a SavingsAccount object
         SavingsAccount s1 = new SavingsAccount("Shailav Malik", 1000.00, 2.25);
         s1.deposit(100);
         s1.withdraw(500);
         s1.showInfo();
         s1.addInterest();
         s1.showInfo();
-
     }
-
 }
