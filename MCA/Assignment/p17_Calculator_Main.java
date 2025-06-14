@@ -7,7 +7,7 @@ public class p17_Calculator_Main {
     public static void main(String[] args) {
         Calculator calc = new Calculator();
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter two numbers: ");
+        System.out.print("Enter two numbers: ");
         int a = sc.nextInt();
         int b = sc.nextInt();
 
@@ -21,7 +21,7 @@ public class p17_Calculator_Main {
             System.out.print("Enter your choice: ");
             int choice = sc.nextInt();
             System.out.println();
-            
+
             switch (choice) {
                 case 1:
                     System.out.println("Addition: " + calc.add(a, b) + "\n");
@@ -43,6 +43,5 @@ public class p17_Calculator_Main {
                     System.out.println("Invalid choice");
             }
         }
-
     }
 }

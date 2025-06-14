@@ -22,7 +22,7 @@ public class p14_String_Functions {
         System.out.println("Are both strings equal (ignoring case)? " + s1.equalsIgnoreCase(s2) + "\n");
 
         // ? use of replace() function
-        System.out.println("String2 after replacing 'Salim' with 'Shailav': " + s2.replace("Salim", "Shailav")+ "\n");
+        System.out.println("String2 after replacing 'Salim' with 'Shailav': " + s2.replace("Salim", "Shailav") + "\n");
 
         // ? use of split() function
         String[] words = s2.split(" "); // split() function splits the string into an array of words
@@ -31,7 +31,7 @@ public class p14_String_Functions {
             System.out.println(word);
         }
         // ? use of join() function
-        System.out.println("String2 after joining: " + String.join("-", words)+ "\n");
+        System.out.println("String2 after joining: " + String.join("-", words) + "\n");
 
         // ? use of toCharArray() function
         char[] charArray = s1.toCharArray(); // converts the string to a character array
@@ -45,5 +45,4 @@ public class p14_String_Functions {
         for (int i = 0; i < byteArray.length; i++)
             System.out.print(byteArray[i] + " ");
     }
-
 }

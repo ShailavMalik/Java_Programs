@@ -19,6 +19,5 @@ public class p21_Exception_Handling {
             sc.close();
             System.out.println("Scanner closed.");
         }
-
     }
 }
